@@ -42,3 +42,23 @@ Dim longArr() As Long
 longArr  = v.ToLong
 ```
 
+## Documentation
+
+The following methods is available
+
+```vb
+Sub Delete()
+Sub Push(Element As Long)
+Sub PushArr(arr() As Long)
+Sub Realloc(n As Long)
+Sub Resize(n As Long)
+Sub Reserve(n As Long)
+Sub Shrink()
+
+Function Capacity() As Long
+Function Element(index As Long) As Long
+Function IsEmpty() As Boolean
+Function Size() As Long
+Function ToLong() As Long()
+
+```
