@@ -36,7 +36,7 @@ Loop
 v.Shrink
 ```
 
-Converting a Vector to a long array can be done by
+Converting a Vector to a long array can be done with
 ```vb
 Dim longArr() As Long
 longArr  = v.ToLong
