@@ -44,9 +44,11 @@ longArr  = v.ToLong
 
 ## Documentation
 
-The following methods is available
+The following fields and methods are available
 
 ```vb
+Property AutoAlloc(value As Long)
+
 Sub Delete()
 Sub Push(Element As Long)
 Sub PushArr(arr() As Long)
